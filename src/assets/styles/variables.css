@@ -1,0 +1,10 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+    --secondary-text: rgba(165, 165, 165, 1);
+    --primary-color: rgba(255, 166, 0, 1);
+    --secondary-color: rgba(255, 236, 203, 1);
+    --border-color: rgba(51, 33, 0, 1);
+    --hover-color: rgb(255, 192, 75);
+    --border-circular-color: rgba(133, 122, 102, 1);
+}

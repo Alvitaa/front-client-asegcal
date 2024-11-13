@@ -1,0 +1,77 @@
+.animal-list-container {
+    padding: 2% 5%;
+    position: relative;
+}
+
+.add-button {
+    padding: 0 2.5%;
+    height: 2.3rem;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.add-button:hover {
+    background-color: var(--hover-color);
+}
+
+.animal-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.animal-card {
+    border-radius: 3px;
+    overflow: hidden;
+    height: fit-content;
+}
+
+.animal-card h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0 0 0;
+}
+
+.animal-image {
+    width: 100%;
+    height: 40vh;
+    max-height: 40vh;
+    object-fit: cover;
+}
+
+.animal-info {
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animal-info p {
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+}
+
+.edit-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 1%;
+    width: 30%;
+}
+
+.edit-button:hover {
+    background-color: var(--hover-color);
+}
