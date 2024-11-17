@@ -9,16 +9,18 @@ import RegistroDonaciones from './pages/registro-donaciones/RegistroDonaciones';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header/>
-      <Routes>
-        <Route path='/' element={<LandingPage/>}/>
-        <Route path='/adopcion' element={<CentrosAdopcion/>}/>
-        <Route path='/voluntarios' element={<RegistroVoluntarios/>}/>
-        <Route path='/donaciones' element={<RegistroDonaciones/>}/>
-      </Routes>
-      <Footer/>
-    </BrowserRouter>
+    <div className='App'>
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route path='/' element={<LandingPage/>}/>
+          <Route path='/adopcion' element={<CentrosAdopcion/>}/>
+          <Route path='/voluntarios' element={<RegistroVoluntarios/>}/>
+          <Route path='/donaciones' element={<RegistroDonaciones/>}/>
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
+    </div>
   );
 }
 
