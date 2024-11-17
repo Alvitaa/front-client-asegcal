@@ -1,0 +1,51 @@
+.voluntariado {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 12%;
+}
+
+.voluntariado-formulario {
+    padding: 0% 5%;
+}
+
+.voluntariado-formulario h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.voluntariado-formulario h3 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 10%;
+}
+
+.voluntariado-form {
+    padding: 0% 5%;
+    text-align: right;
+}
+
+.voluntariado-form button {
+    margin-top: 5%;
+    padding: 2% 4%;
+}
+
+.aceptar-terminos input[type=checkbox] {
+    display: inline !important;
+    width: 10%;
+    border: 1px var(--primary-color) solid;
+}
+
+.aceptar-terminos {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 100%;
+    font-size: small;
+}
+
+.aceptar-terminos label {
+    width: 90%;
+    display: inline; /* Asegura que el label se muestre en línea con el checkbox */
+    margin: 0; /* Elimina márgenes extra que podrían estar agregando espacio innecesario */
+}
+

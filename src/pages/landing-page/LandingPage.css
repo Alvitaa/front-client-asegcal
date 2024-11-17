@@ -1,4 +1,4 @@
-.inicio-content {
+.top-content {
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: row;
@@ -6,7 +6,7 @@
     padding: 0 10%;
 }
 
-.top-content {
+.inicio-content {
     padding-top: 13%;
 }
 
@@ -36,4 +36,10 @@
 
 .landing-icon path {
     fill: var(--border-color);
+}
+
+.about-us {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 5% 15%;
 }

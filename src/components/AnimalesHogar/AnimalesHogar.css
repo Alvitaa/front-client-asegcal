@@ -1,0 +1,47 @@
+.animal-carousel {
+    text-align: center;
+    padding: 1% 0;
+    height: 75vh;
+}
+.carousel-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+.carousel-content hr {
+    width: 10%;
+}
+
+.carousel-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.carousel-item {
+    width: 40vw;
+    max-width: 40vw;
+    padding: 0 20px;
+}
+
+.carousel-arrow {
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-width: 100%;
+    height: 40vh;
+    max-height: 40vh;
+    object-fit: cover;
+}
+
+.side-item {
+    opacity: 0.6; /* Reduce la opacidad de los elementos laterales */
+}
