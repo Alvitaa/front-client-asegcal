@@ -29,6 +29,11 @@
     padding: 2% 4%;
 }
 
+.voluntariado img {
+    position: relative;
+    max-height: 30rem;
+}
+
 .aceptar-terminos input[type=checkbox] {
     display: inline !important;
     width: 10%;

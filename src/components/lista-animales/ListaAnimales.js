@@ -2,10 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./ListaAnimales.css";
 import tamanos from "../Tamanios.js";
 
-const animales = [
-    {id: 1, petName: "Max", age:3, gender:"Macho", size:"2", photo: "", description:"max el destroyer."}
-]
-
 function AnimalInfo (animal) {
     return(
         <div key={animal.id} className="animal-card">
@@ -16,7 +12,7 @@ function AnimalInfo (animal) {
                 <div>
                     <p><b>Sexo:</b> {animal.gender}</p>
                     <p><b>Tamaño:</b> {tamanos[animal.size]}</p>
-                    <p><b>Descripción:</b> {animal.description}</p>
+                    <p><b>Descripción:</b> {animal.comment}</p>
                 </div>
             </div>
         </div>
@@ -24,13 +20,8 @@ function AnimalInfo (animal) {
 }
 
 export default function ListaAnimales() {
-    //const [animales, setAnimales] = useState(animales);
+    const [animales, setAnimales] = useState([]);
     const [isLoaded, setIsLoaded] = useState(true);
-    /* const navigate = useNavigate();
-
-    function HandleNavigation(url) {
-        navigate(url);
-    }
 
     async function fetchData () {
         try {
@@ -51,7 +42,7 @@ export default function ListaAnimales() {
 
     useEffect(() => {
         fetchData();
-    }, []); */
+    }, []);
     
     return(
         <>

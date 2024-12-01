@@ -10,32 +10,16 @@
     padding-top: 13%;
 }
 
+.otro-content {
+    padding-top: 13%;
+    text-align: center;
+    padding-right: 3rem;
+}
+
 .adoption {
     padding: 2% 5%;
     border-radius: 2px;
     color: black;
-}
-
-.info-contacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: var(--border-color);
-}
-
-.icons {
-    display: flex;
-    align-items: center;
-}
-
-.landing-icon {
-    color: var(--border-color);
-    height: 5vh;
-}
-
-
-.landing-icon path {
-    fill: var(--border-color);
 }
 
 .about-us {

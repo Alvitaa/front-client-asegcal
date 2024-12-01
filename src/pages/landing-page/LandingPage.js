@@ -1,11 +1,10 @@
 import React from "react";
 import "./LandingPage.css";
 import dogImage from '../../assets/images/Dog.svg';
-import phone from "../../assets/icons/li_phone.svg";
-import mail from "../../assets/icons/mail.svg";
 import AnimalesHogar from "../../components/AnimalesHogar/AnimalesHogar";
 import Voluntariado from "../../components/Voluntariado/Voluntariado";
 import { useNavigate } from "react-router-dom";
+import InfoContacto from "../../components/InfoContacto/InfoContacto";
 
 function SobreNosotros() {
     return(
@@ -36,16 +35,7 @@ export default function LandingPage() {
                 </div>
                 <img src={dogImage} alt="Dog" className="inicio-imagen" />
             </div>
-            <div className="info-contacto">
-                <div className="icons">
-                    <img src={phone} alt="phone" className="landing-icon"/>
-                    <h2>&nbsp;+51 992 770 749</h2>
-                </div>
-                <div className="icons">
-                    <img src={mail} alt="mail" className="landing-icon"/>
-                    <h2>&nbsp;@hermandad.animal</h2>
-                </div>
-            </div>
+            <InfoContacto />
             <AnimalesHogar />
             <SobreNosotros />
             <Voluntariado />

@@ -1,0 +1,21 @@
+.info-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: var(--border-color);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.landing-icon {
+    color: var(--border-color);
+    height: 5vh;
+}
+
+
+.landing-icon path {
+    fill: var(--border-color);
+}

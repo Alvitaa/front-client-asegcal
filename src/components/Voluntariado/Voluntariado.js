@@ -1,7 +1,6 @@
 import React from "react";
 import "./Voluntariado.css";
-
-const img = "https://s3-alpha-sig.figma.com/img/182b/86e2/ae3a29e0ff720bf4fb54be1802cb9b86?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lwhcXhQvC4FVGCvPxWDvhCP~v8wIW4jnjeZ24bibHtg6tFntpJudHvlJ6kAlBjHfwwntBGngqSns3UNJIG-pahjargx0TPgJWxvWwcJza9uFhj-ssd~mJS~Tj0G1E862gSJvnRrhsGEWB6DhQf1gdryNdkfHTLokTE7ssAnpKkqRmK60OrLtq59ZLxeQw8ktSGUq6EFMJKI6iTEPixm3FrTk4gPyZd7v08kETt6aQaOm58TXnPhY4gnN~1xu9G61hTG9BAfMOJU7hFPJF2PiPqvTB4hziBmFV6wCWvHRWGAacyrky4Q6I4ojwE79twOxEX-hnrELfh9QHf9~29zU-w__";
+import image from "../../assets/images/voluntariado.png";
 
 export default function Voluntariado () {
     return(
@@ -25,7 +24,7 @@ export default function Voluntariado () {
                     <button type="submit">Enviar datos</button>
                 </form>
             </div>
-            <img src={img} alt="imagen de voluntarios"/>
+            <img src={image} alt="imagen de voluntarios"/>
         </div>
     );
 }

@@ -1,0 +1,36 @@
+.donaciones {
+    display: flex;
+    flex-direction: row;
+}
+
+.donaciones-formulario {
+    margin: 0 5% 0 10%;
+    max-width: 40%;
+}
+
+.donaciones-formulario h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.donaciones-formulario h3 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 10%;
+}
+
+.donaciones-form {
+    padding: 0% 5%;
+    text-align: right;
+}
+
+.donaciones-form button {
+    margin-top: 5%;
+    padding: 2% 4%;
+}
+
+.donaciones img {
+    position: relative;
+    max-height: 30rem;
+    max-width: 50%;
+}
