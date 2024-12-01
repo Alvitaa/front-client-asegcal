@@ -67,7 +67,6 @@ export default function Voluntariado() {
                         placeholder="Motivación para ser voluntario."
                         name="comment"
                         onChange={handleChange}
-                        required
                     />
                     <div className="aceptar-terminos">
                         <input
